@@ -1,6 +1,7 @@
 package com.collection;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListDemo {
 	public static void main(String[] args) {
@@ -20,9 +21,15 @@ public class ArrayListDemo {
 		System.out.println("after adding new element");
 		System.out.println(al.set(5, "new element"));
 		System.out.println(al.isEmpty());
-		System.out.println(al.removeAll(al));
-		System.out.println(al.isEmpty());
+		//System.out.println(al.removeAll(al));
+		//System.out.println(al.isEmpty());
 		
+		System.out.println("------------iterator------------");
+		Iterator it=al.iterator();
+		while(it.hasNext())
+		{
+			System.out.println(it.next());
+		}
 		
 	}
 
