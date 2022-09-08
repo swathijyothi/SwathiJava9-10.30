@@ -2,6 +2,7 @@ package com.collection;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.ListIterator;
 
 public class ArrayListDemo {
 	public static void main(String[] args) {
@@ -30,7 +31,17 @@ public class ArrayListDemo {
 		{
 			System.out.println(it.next());
 		}
-		
+		System.out.println("-----------List Iterator--------------");
+		ListIterator lis=al.listIterator();
+		while(lis.hasNext()) 
+		{
+			System.out.println(lis.next());
+		}
+		System.out.println("----------------------------------------------------------");
+		System.out.println("Reverse Order");
+		while(lis.hasPrevious()) {
+			System.out.println(lis.previous());
+		}
 	}
 
 }
