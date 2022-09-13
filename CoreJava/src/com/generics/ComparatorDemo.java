@@ -1,10 +1,10 @@
+package com.generics;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-import com.generics.Employee;
-
-public class CompraractorDemo implements Comparator<Employee>{
+public class ComparatorDemo implements Comparator<Employee>{
 	@Override
 	public int compare(Employee e1, Employee e2) {
 		int value=0;
@@ -54,7 +54,7 @@ public class CompraractorDemo implements Comparator<Employee>{
 		list.add(e4);
 		list.add(e5);
 		
-		Collections.sort(list, new CompraractorDemo());
+		Collections.sort(list, new ComparatorDemo());
 		for(Employee e:list) {
 			System.out.println("eid:"+e.getEid()+"\n"+"ename:"+e.getEname()+"\n"+"esalary:"+e.getEsalary());
 		}
@@ -63,3 +63,5 @@ public class CompraractorDemo implements Comparator<Employee>{
 	
 
 }
+
+
