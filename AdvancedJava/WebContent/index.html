@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+function checkFname(){
+	var f=document.myform.fname.value;
+	var reg=/^[a-zA-Z]+$/;
+	if(f=""){
+		//alert please enter the first name
+		document.getElementById("fname").innerHTML="*Please Enter First Name !"
+	}
+	else if(!reg.test(f)){
+		doucument.getElementById("fname").innerHTML="*Please Enter only Alphabets"
+	}
+	else{
+		document.getElementById("fname").innerHTML="";
+	}
+}	
+
+</script>
+
+</head>
+<body>
+
+<h1 align="center"> STUDENT REGISTRATION</h1>
+<br>
+<form name="my form" method="get" action="">
+<table align="center">
+<tr>
+<td>First Name:</td>
+<td ><input name="fname" type="text" onblur="">
+<span name="my form " id=document.myform.fname.value></span>
+</td>
+</tr>
+<tr>
+<td>Last Name:</td>
+<td><input type="text" name=lname></td>
+</tr>
+<tr>
+<td>Email</td>
+<td><input name="email"type="text"></td>
+</tr>
+<tr>
+<td>Mobile:</td>
+<td><input name="mobile" type="text"></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input name="password"type="password"></td>
+</tr>
+<tr>
+<td>Confirm Password:</td>
+<td><input name="cpassword"type="password"></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td><input name="gender" type="radio" values="female">Female</td>
+<td><input name="gender"type="radio" values="male">Male</td>
+</tr>
+<tr>
+<td>Address:</td>
+<td><textarea row="5"column="20"> </textarea></td>
+</tr>
+<tr>
+<td>Education Qualification:</td>
+<td><select name="education">
+<option>----------SELECT----------</option>
+<option>10th pass</option>
+<option>12th pass</option>
+<option>Graduation</option>
+<option>PG</option>
+<option>Phd</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Hobbies:</td>
+<td><input type="checkbox" name="hobbies">Cricket</td>
+<td><input type="checkbox"name="hobbies">Football</td>
+<td><input type="checkbox"name="hobbies">Other</td>
+</tr>
+<tr>
+<td><input type="submit"value="Register"class="btn btn-danger"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
