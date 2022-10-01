@@ -26,7 +26,7 @@ public class SameThreadTwice {
 	public static void main(String[] args) {
 	TestThreadTwice t1= new TestThreadTwice();
 	t1.start();
-	t1.start();
+//	t1.start();
 	}
 
 }

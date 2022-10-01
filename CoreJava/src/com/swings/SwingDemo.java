@@ -146,14 +146,21 @@ public class SwingDemo implements ActionListener{
 						t2.setText(rs.getString("last_name"));
 						t3.setText(rs.getString("email"));
 						t4.setText(rs.getString("mobile"));
+						JOptionPane.showMessageDialog(f, "searched successfully");
 					}
-					JOptionPane.showMessageDialog(f, "searched successfully");
-					t5.setText("");
-					t1.setText("");
-					t2.setText("");
-					t3.setText("");
-					t4.setText("");
-				} catch (Exception e) {
+					
+					//t5.setText("");
+				//	t1.setText("");
+				//	t2.setText("");
+				//	t3.setText("");
+				//	t4.setText("");
+					if(rs.next()==false) {
+						
+						JOptionPane.showMessageDialog(f, "not found");
+						
+					
+				} }
+				catch (Exception e) {
 					
 					e.printStackTrace();
 				}

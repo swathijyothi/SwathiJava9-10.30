@@ -13,15 +13,25 @@ function checkFname(){
 	var reg=/^[a-zA-Z]+$/;
 	if(f=""){
 		//alert please enter the first name
-		document.getElementById("fname").innerHTML="*Please Enter First Name !"
+		document.getElementById("fname").innerHTML="*Please Enter First Name !";
 	}
 	else if(!reg.test(f)){
-		doucument.getElementById("fname").innerHTML="*Please Enter only Alphabets"
+		doucument.getElementById("fname").innerHTML="*Please Enter only Alphabets";
 	}
 	else{
 		document.getElementById("fname").innerHTML="";
 	}
 }	
+function checklname(){
+	var l=document.myform.lname.values'
+	var reg=/^[A-Za-z]+$/;
+	if(f=""){
+		document.getElementById("lname").innerHTML="*Please Enter Last Name !";
+	}else if(!reg.test(l)){
+		doucument.getElementById("fname").innerHTML="*Please Enter only Alphabets";
+		
+	}
+}
 
 </script>
 
@@ -34,13 +44,15 @@ function checkFname(){
 <table align="center">
 <tr>
 <td>First Name:</td>
-<td ><input name="fname" type="text" onblur="">
-<span name="my form " id=document.myform.fname.value></span>
+<td ><input name="fname" type="text" onblur="checkFname();"required>
+<span  id="fname"></span>
 </td>
 </tr>
 <tr>
 <td>Last Name:</td>
-<td><input type="text" name=lname></td>
+<td><input type="text" name=lname onblur="checklname();">
+<span id="lname"></span>
+</td>
 </tr>
 <tr>
 <td>Email</td>
