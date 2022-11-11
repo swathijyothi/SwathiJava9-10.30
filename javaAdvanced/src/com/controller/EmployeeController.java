@@ -2,11 +2,16 @@ package com.controller;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+
+import com.dao.EmployeeDao;
+import com.empBean.Employee;
+
+
 
 /**
  * Servlet implementation class EmployeeController
@@ -17,16 +22,51 @@ public class EmployeeController extends HttpServlet {
        
    
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String action =request.getParameter("action");
-		System.out.println("insert");
-		if(action.equalsIgnoreCase("register")) {
-			System.out.println(request.getParameter("fname"));
-			System.out.println(request.getParameter("lname"));
-			System.out.println(request.getParameter("email"));
-			System.out.println(request.getParameter("mobile"));
-			System.out.println(request.getParameter("gender"));
-			System.out.println(request.getParameter("address"));
+		String action = request.getParameter("action");
+		System.out.println(action);
+		
+		if(action.equalsIgnoreCase("insert"))
+		{
+			Employee e = new Employee();
+			e.setFname(request.getParameter("fname"));
+			e.setLname(request.getParameter("lname"));
+			e.setEmail(request.getParameter("email"));
+			e.setMobile(Long.parseLong(request.getParameter("mobile")));
+			e.setAddress(request.getParameter("address"));
+			e.setGender(request.getParameter("gender"));
+			EmployeeDao.insertEmployee(e);
+			response.sendRedirect("show.jsp");
+		}		
+		else if(action.equalsIgnoreCase("edit"))
+		{
+			int id = Integer.parseInt(request.getParameter("id"));
+			Employee e = EmployeeDao.getEmployeeById(id);
+			request.setAttribute("e", e);
+			request.getRequestDispatcher("update.jsp").forward(request, response);
 		}
+		else if(action.equalsIgnoreCase("update"))
+		{
+			Employee e = new Employee();
+			e.setId(Integer.parseInt(request.getParameter("id")));
+			e.setFname(request.getParameter("fname"));
+			e.setLname(request.getParameter("lname"));
+			e.setEmail(request.getParameter("email"));
+			e.setMobile(Long.parseLong(request.getParameter("mobile")));
+			e.setAddress(request.getParameter("address"));
+			e.setGender(request.getParameter("gender"));
+			EmployeeDao.updateEmployee(e);
+			response.sendRedirect("show.jsp");
+			
+		}
+		else if(action.equalsIgnoreCase("delete"))
+		{
+			int id = Integer.parseInt(request.getParameter("id"));
+			//System.out.println(id);
+			EmployeeDao.deleteEmployee(id);
+			response.sendRedirect("show.jsp");
+		}
+		
+		
 	}
 
 }

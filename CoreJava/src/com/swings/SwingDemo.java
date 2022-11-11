@@ -97,7 +97,7 @@ public class SwingDemo implements ActionListener{
 			{
 				
 				try {
-					
+					System.out.println("insert");
 					
 		//1)Import drive
 					
@@ -153,7 +153,7 @@ public class SwingDemo implements ActionListener{
 				//	t1.setText("");
 				//	t2.setText("");
 				//	t3.setText("");
-				//	t4.setText("");
+				//op	t4.setText("");
 					if(rs.next()==false) {
 						
 						JOptionPane.showMessageDialog(f, "not found");
