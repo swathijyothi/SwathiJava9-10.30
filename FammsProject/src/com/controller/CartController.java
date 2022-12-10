@@ -26,6 +26,7 @@ public class CartController extends HttpServlet {
 		
 		Cart c=CartDao.getCartProductById(cid);
 		c.setProduct_qty(product_qty);
+		
 		int total_price= c.getProduct_price()*product_qty;
 		c.setTotal_price(total_price);
 		CartDao.updateToCart(c);

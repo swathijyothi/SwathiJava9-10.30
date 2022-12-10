@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/activation-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/asm-1.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/asm-attrs-1.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/cglib-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/commons-digester-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/commons-email-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/commons-fileupload-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/commons-io-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/dumbster-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/ehcache-1.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/hibernate-3.2.6.ga.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/hibernate-annotations-3.3.1.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/hibernate-commons-annotations-3.0.0.ga.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/hibernate-entitymanager-3.3.2.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/hibernate-search-3.0.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/hibernate-validator-4.0.2.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/icu4j-2.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/javassist-3.4.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/jaxb-api-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/jaxb-impl-2.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/jaxen-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/jdom-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/lucene-core-2.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/lucene-highlighter-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/mail-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/mysql-connector-java-5.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/persistence-api-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/quartz-1.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/slf4j-api-1.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/slf4j-log4j12-1.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/spring-aop-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/spring-asm-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/spring-beans-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/spring-context-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/spring-core-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/spring-expression-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/spring-jdbc-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/spring-orm-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/spring-tx-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/spring-web-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/spring-webmvc-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/stax-api-1.0-2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/validation-api-1.0.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/xalan-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/xercesImpl-2.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/xml-apis-1.3.02.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/xmlParserAPIs-2.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/SpringORMJars-20221112T092422Z-001/SpringORMJars/xom-1.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_211">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
