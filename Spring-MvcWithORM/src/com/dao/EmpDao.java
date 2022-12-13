@@ -7,7 +7,7 @@ import com.bean.Employee;
 public class EmpDao extends HibernateDaoSupport{
 	
 	public void insert(Employee e) {
-		getHibernateTemplate().saveOrUpdate(e);;
+		getHibernateTemplate().saveOrUpdate(e);
 	}
 
 }
