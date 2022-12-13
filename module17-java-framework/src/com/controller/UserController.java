@@ -24,7 +24,7 @@ public class UserController {
 		return "signup";
 	}
 	
-	@RequestMapping(value="/Sign Up",method = RequestMethod.POST)
+	@RequestMapping(value="/signup",method = RequestMethod.POST)
     public String insert(HttpServletRequest request,HttpServletRequest response) 
 	{
 		User u=new User();

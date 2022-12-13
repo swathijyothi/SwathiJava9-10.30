@@ -94,14 +94,14 @@
 </head>
 <body>
 <div class="signup-form">
-    <form action="UserController" name="signup" method="post">
+    <form action="signup" name="signup" method="post">
 		<h2>Sign Up</h2>
 		<p>Please fill in this form to create an account!</p>
 		<hr>
         <div class="form-group">
 			<div class="row">
-				<div class="col-xs-6"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
-				<div class="col-xs-6"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required"></div>
+				<div class="col-xs-6"><input type="text" class="form-control" name="fname" placeholder="First Name" required="required"></div>
+				<div class="col-xs-6"><input type="text" class="form-control" name="lname" placeholder="Last Name" required="required"></div>
 			</div>        	
         </div>
         <div class="form-group">
@@ -111,7 +111,7 @@
             <input type="password" class="form-control" name="password" placeholder="Password" required="required">
         </div>
 		<div class="form-group">
-            <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
+            <input type="password" class="form-control" name="cpassword" placeholder="Confirm Password" required="required">
        </div>
        <div>
        </div>
