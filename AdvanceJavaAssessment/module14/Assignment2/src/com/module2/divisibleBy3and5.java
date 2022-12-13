@@ -1,0 +1,31 @@
+package com.module2;
+
+public class divisibleBy3and5 {
+	public static void main(String[] args) {
+		int i;
+		System.out.println("number divisible by 3");
+		for(i=2;i<100;i++) 
+		{
+		if((i%3)==0) {
+			System.out.print(i+" ");
+		}
+		}
+		System.out.println();
+		System.out.println("number divisible by 5");
+		for(i=2;i<100;i++) 
+		{
+		if((i%5)==0) {
+			System.out.print(i+" ");
+		}
+		}
+		System.out.println();
+		System.out.println("number divisible by 3 and 5");
+		for(i=2;i<100;i++) 
+		{
+		if((i%3)==0&&(i%5)==0) {
+			System.out.print(i+" ");
+		}
+		}
+	}
+
+}
