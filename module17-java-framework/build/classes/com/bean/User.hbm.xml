@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-<!-- Generated 13 Dec, 2022 11:15:48 AM by Hibernate Tools 3.5.0.Final -->
+<!-- Generated 19 Dec, 2022 10:35:04 AM by Hibernate Tools 3.5.0.Final -->
 <hibernate-mapping>
     <class name="com.bean.User" table="user">
         <id name="id" type="int">
@@ -22,6 +22,9 @@
         </property>
         <property name="cpassword" type="java.lang.String">
             <column name="CPASSWORD" />
+        </property>
+        <property name="image" type="java.lang.String">
+            <column name="IMAGE" />
         </property>
     </class>
 </hibernate-mapping>

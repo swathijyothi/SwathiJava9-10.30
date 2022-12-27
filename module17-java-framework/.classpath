@@ -69,5 +69,7 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/forgot_password-20220915T122359Z-001/forgot_password/javax.activation.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/forgot_password-20220915T122359Z-001/forgot_password/javax.mail.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

@@ -3,7 +3,7 @@ package com.bean;
 public class User {
 	
 	int id;
-	String fname,lname,email,password,cpassword;
+	String fname,lname,email,password,cpassword,image;
 	public int getId() {
 		return id;
 	}
@@ -40,7 +40,12 @@ public class User {
 	public void setCpassword(String cpassword) {
 		this.cpassword = cpassword;
 	}
-	
+	public String getImage() {
+		return image;
+	}
+	public void setImage(String image) {
+		this.image = image;
+	}
 	
 	
 

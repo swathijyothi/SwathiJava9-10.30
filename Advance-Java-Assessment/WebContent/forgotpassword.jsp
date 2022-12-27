@@ -45,12 +45,7 @@
       <section class="why_section layout_padding">
          <div class="container">
           
-          <%
-          if(request.getAttribute("msg")!=null){
-        	  out.print(request.getAttribute("msg"));
-          }
-          
-          %>
+         
             <div class="row">
                <div class="col-lg-8 offset-lg-2">
                   <div class="full">

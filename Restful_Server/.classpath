@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/aopalliance-repackaged-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/asm-debug-all-5.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/hk2-api-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/hk2-locator-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/hk2-utils-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/javax.inject-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/javax.servlet-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/javax.ws.rs-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/jaxb-api-2.2.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/jersey-client.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/jersey-common.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/jersey-container-servlet.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/jersey-container-servlet-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/jersey-guava-2.23.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/jersey-media-jaxb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/jersey-server.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/org.osgi.core-4.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/osgi-resource-locator-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/persistence-api-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jyoth/OneDrive/Documents/RestJars/Rest-Jar-files/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

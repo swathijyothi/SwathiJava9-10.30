@@ -91,6 +91,43 @@
 		text-align: center;
     }
 </style>
+<script >
+var request=new XMLHttpRequest();  
+function searchInfo()
+{  
+	var name=document.signup.email.value;  
+	var url="AjaxSearch2.jsp?val="+name;  
+  	try
+  	{  
+		request.onreadystatechange=function()
+		{  
+			if(request.readyState==4)
+			{  
+				var val=request.responseText;
+				document.getElementById('tops').innerHTML=val;
+				/* if(val.includes("Used"))
+				{
+					alert(val);
+					document.getElementById("submit").disabled="true";	
+				}
+				else if(val.includes("Available"))
+				{
+					alert(val);
+					document.getElementById("submit").disabled="";
+				} */
+			}  
+		}  
+		request.open("GET",url,true);  
+		request.send();  
+	}
+  	catch(e)
+  	{
+  		alert("Unable to connect to server");
+  	}  
+}  
+
+
+</script>
 </head>
 <body>
 <div class="signup-form">
@@ -100,12 +137,15 @@
 		<hr>
         <div class="form-group">
 			<div class="row">
-				<div class="col-xs-6"><input type="text" class="form-control" name="fname" placeholder="First Name" required="required"></div>
+				<div class="col-xs-6"><input type="text" class="form-control" name="fname" placeholder="First Name" onblur="checkFname()" required="required">
+				<span id="fname"></span>
+				</div>
 				<div class="col-xs-6"><input type="text" class="form-control" name="lname" placeholder="Last Name" required="required"></div>
 			</div>        	
         </div>
         <div class="form-group">
-        	<input type="email" class="form-control" name="email" placeholder="Email" required="required">
+        	<input type="email" class="form-control" name="email" placeholder="Email" onblur="searchInfo()" >
+        	<span id="tops" class="btn btn-danger"></span>
         </div>
 		<div class="form-group">
             <input type="password" class="form-control" name="password" placeholder="Password" required="required">
@@ -113,13 +153,35 @@
 		<div class="form-group">
             <input type="password" class="form-control" name="cpassword" placeholder="Confirm Password" required="required">
        </div>
+       <div class="form-group">
+        
+                            <input type="file" class="form-control" name="image" placeholder="image"  required />
+                          
+       </div>
        <div>
        </div>
 		<div class="form-group">
             <button type="submit" class="btn btn-primary btn-lg" name="action" value="signup">Sign Up</button>
         </div>
     </form>
-	<div class="hint-text">Already have an account? <a href="#">Login here</a></div>
+	<div class="hint-text">Already have an account? <a href="login">Login here</a></div>
 </div>
 </body>
+<script type="text/javascript">
+
+function checkFname(){
+	var f=document.myform.fname.value;
+	var reg=/^[a-zA-Z]+$/;
+	if(f=""){
+		//alert please enter the first name
+		document.getElementById("fname").innerHTML="*Please Enter First Name !";
+	}
+	else if(!reg.test(f)){
+		doucument.getElementById("fname").innerHTML="*Please Enter only Alphabets";
+	}
+	else{
+		document.getElementById("fname").innerHTML="";
+	}
+}	
+</script>
 </html>

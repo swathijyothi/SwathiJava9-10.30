@@ -59,7 +59,6 @@ function searchInfo()
   	}  
 }  
 
-}	
 </script>  
 </head>
 <body class="sub_page">

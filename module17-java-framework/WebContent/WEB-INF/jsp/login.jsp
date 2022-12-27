@@ -42,21 +42,22 @@
 </style>
 </head>
 <body>
+${msg}
 <div class="login-form">
-    <form action="UserController" name="login" method="post">
+    <form action="login" name="login" method="post">
         <h2 class="text-center">Log in</h2>       
         <div class="form-group">
-            <input type="text" class="form-control" placeholder="Username" required="required">
+            <input type="text" class="form-control" placeholder="Username" name="email" required="required">
         </div>
         <div class="form-group">
-            <input type="password" class="form-control" placeholder="Password" required="required">
+            <input type="password" class="form-control" placeholder="Password" name="password" required="required">
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-primary btn-block" name="action" value="login">Log in</button>
         </div>
         <div class="clearfix">
             <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
-            <a href="#" class="pull-right">Forgot Password?</a>
+            <a href="forgotpassword" class="pull-right">Forgot Password?</a>
         </div>        
     </form>
     <p class="text-center"><a href="#">Create an Account</a></p>
