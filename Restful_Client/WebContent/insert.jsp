@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<form action="MainServlet" method="post">
+<form  method="post" action="MainServlet">
 <h1 align="center">Insert Page</h1>
 
 <table align="center">

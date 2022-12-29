@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="s1" class="com.bean.Student">
+<property name="fname" value="swathi"/>
+<property name="lname" value="c"/>
+<property name="email" value="swathi@gmail.com"/>
+<property name="mobile" value="8281452150"/>
+</bean>
+<bean id="s2" class="com.bean.Student">
+<property name="fname" value="ahaan"/>
+<property name="lname" value="c"/>
+<property name="email" value="ahaan@gmail.com"/>
+<property name="mobile" value="9981452150"/>
+</bean>
+<bean id="s3" class="com.bean.Student">
+<property name="fname" value="Jyothi"/>
+<property name="lname" value="lal"/>
+<property name="email" value="jyothi@gmail.com"/>
+<property name="mobile" value="99814899150"/>
+</bean>
+<bean id="s4" class="com.bean.Student">
+<property name="fname" value="sujith"/>
+<property name="lname" value="c"/>
+<property name="email" value="sujith@gmail.com"/>
+<property name="mobile" value="9981452150"/>
+</bean>
+<bean id="s5" class="com.bean.Student">
+<property name="fname" value="arvin"/>
+<property name="lname" value="a"/>
+<property name="email" value="arvin@gmail.com"/>
+<property name="mobile" value="99814222250"/>
+</bean>
+<bean id="l1" class="com.bean.StudentList">
+<property name="student">
+<list>
+<ref bean="s1"/>
+<ref bean="s2"/>
+<ref bean="s3"/>
+<ref bean="s4"/>
+<ref bean="s5"/>
+</list>
+</property>
+</bean>
+</beans>
